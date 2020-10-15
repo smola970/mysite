@@ -1,0 +1,16 @@
+
+@import "home";
+@import "font-awesome";
+// @import "bootstrap-sprockets";
+@import "bootstrap";
+@import "table_styles";
+
+@font-face {
+  font-family: proxima-nova-a-bold;
+  src: font-url("proxima-nova-a-bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: avenir;
+  src: font-url("AvenirLTStd-Book.otf") format('truetype');
+}

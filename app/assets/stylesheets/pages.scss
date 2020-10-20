@@ -1,0 +1,200 @@
+.nav-spacer {
+  padding-top: 50px;
+  @media (max-width: $breakpoint-phone-width) {
+    padding-top: 20px;
+  }
+
+  img {
+    width: 60.3%;
+    margin-left: 3%;
+    opacity: 0;
+    // vertical-align: top;
+    @media (max-width: $breakpoint-phone-width) {
+      width: 66%;
+    }
+  }
+}
+
+.page-content-container {
+  margin-top: 20px;
+  .page-content-left {
+    width: 53%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+    @media (max-width: $breakpoint-phone-width) {
+      width: 100%;
+    }
+
+    .page-title {
+      background-color: #000000;
+      display: inline-block;
+      padding-left: 15%;
+      margin-top: 40px;
+      margin-bottom: 60px;
+      @media (max-width: $breakpoint-phone-width) {
+        padding-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        font-family: 'proxima-nova-a-bold';
+        font-size: 20px;
+        letter-spacing: 11px;
+        color: #ffffff;
+        margin: 8px;
+        @media (max-width: $desktop-width) {
+          font-size: 14px;
+          letter-spacing: 10px;
+        }
+      }
+
+    }
+
+    .mobile-img {
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .page-text {
+      padding-left: 15%;
+      padding-right: 10%;
+      @media (max-width: $breakpoint-phone-width) {
+        padding-left: 7%;
+        padding-right: 7%;
+      }
+
+      p {
+        font-family: avenir;
+        text-align: justify;
+      }
+    }
+  }
+  .page-content-right {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.my-work-container {
+  background-color: #f6f6f6;
+  padding-bottom: 40px;
+  margin-top: 40px;
+
+  .my-work-title {
+    background-color: #ffffff;
+    display: inline-block;
+    padding-left: 7%;
+    margin-top: 40px;
+    // margin-bottom: 40px;
+    h2 {
+      font-family: 'proxima-nova-a-bold';
+      font-size: 14px;
+      letter-spacing: 8px;
+      color: #000000;
+      margin: 8px;
+    }
+  }
+
+
+  .logos-box {
+    width: 100%;
+    height: 100%;
+
+    @media (min-width: $breakpoint-tablet) {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+      align-content: stretch;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .logo-container {
+      @media (min-width: $breakpoint-tablet) {
+        width: 33%;
+        display: inline-block;
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+      }
+
+      .logo-content {
+        width: 50%;
+        margin-left: 20%;
+        padding-top: 30px;
+        @media (max-width: $breakpoint-tablet) {
+          width: 60%;
+          padding-top: 120px;
+          &.hero {
+            margin-left: 10%;
+            padding-bottom: 120px;
+          }
+
+        }
+
+        img {
+          width: 100%;
+        }
+        .links-container {
+          width: 100%;
+          text-align: right;
+          padding-top: 10px;
+          @media (max-width: $breakpoint-tablet) {
+            padding-top: 10px;
+          }
+
+          a {
+            text-decoration: none;
+            p {
+              font-size: 14px;
+              letter-spacing: 1px;
+              color: #c8c8c8;
+              font-family: avenir;
+
+              i {
+                font-size: 10px;
+              }
+            }
+
+            &:hover {
+              p {
+                color: #000000;
+              }
+            }
+          }
+
+
+        }
+      }
+
+    }
+  }
+}

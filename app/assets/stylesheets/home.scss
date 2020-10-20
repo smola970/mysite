@@ -260,30 +260,30 @@ background-size: cover;
    }
  }
 
-  ul {
-    list-style: none;
-    width: 36%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-
-    li {
-      display: inline-block;
-      font-family: 'proxima-nova-a-bold';
-      color: #ffffff;
-      font-size: 14px;
-      letter-spacing: 8px;
-      margin: 0 7% 0 0;
-
-      @media (max-width: $desktop-width) {
-        font-size: 13px;
-        letter-spacing: 5px;
-        margin: 0 6% 0 0;
-      }
-    }
-  }
+  // ul {
+  //   list-style: none;
+  //   width: 36%;
+  //   display: inline-block;
+  //   vertical-align: top;
+  //   margin: 0;
+  //   padding: 0;
+  //   text-align: right;
+  //
+  //   li {
+  //     display: inline-block;
+  //     font-family: 'proxima-nova-a-bold';
+  //     color: #ffffff;
+  //     font-size: 14px;
+  //     letter-spacing: 8px;
+  //     margin: 0 7% 0 0;
+  //
+  //     @media (max-width: $desktop-width) {
+  //       font-size: 13px;
+  //       letter-spacing: 5px;
+  //       margin: 0 6% 0 0;
+  //     }
+  //   }
+  // }
 }
 
 .home-my-work-container {

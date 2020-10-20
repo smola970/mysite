@@ -23,18 +23,19 @@ $large-desktop-width: 1500px;
  width: 100vw;
  height: 100vh;
  overflow: hidden;
- background: image-url('home_background.jpg') no-repeat center center fixed;
+ background: image-url('home_background.jpg') no-repeat center center local;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 
 @media (max-width: $breakpoint-tablet) {
-  background: image-url('mobile_home_background.jpg') no-repeat center center fixed;
+  background: image-url('mobile_home_background.jpg') no-repeat center center local;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-radius: 0;
 }
 
 //  img {

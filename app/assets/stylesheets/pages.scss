@@ -1,3 +1,9 @@
+$breakpoint-phone-width: 576px;
+$breakpoint-tablet: 768px;
+$desktop-width: 1024px;
+$desktop-width-max: 1025px;
+$large-desktop-width: 1500px;
+
 .nav-spacer {
   padding-top: 50px;
   @media (max-width: $breakpoint-phone-width) {
